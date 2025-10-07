@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: Bassy;
+    src: url("./assets/fonts/Bassy.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: FinalSix;
+    src: url("./assets/fonts/FinalSixBook.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: RooneySans;
+    src: url("./assets/fonts/RooneySansRegular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Moonblossom;
+  src: url("./assets/fonts/MOONBLOSSOMRegular.ttf") format("truetype");
+}
+
+@theme{
+
+    --font-logotype: "Bassy", sans-serif;
+    --font-header: "FinalSix", sans-serif;
+    --font-body: "RooneySans", sans-serif;
+
+    --text-logotype: 120px;
+    --text-header: 110px;
+    --text-subheader: 95px;
+    --text-body: 48px;
+
+    --color-paint-white: #fdfffc;
+    --color-paint-grey: #253845;
+    --color-paint-black: #011627;
+    --color-paint-red: #e81e65;
+    --color-paint-yellow: #ff9f1c;
+    --color-paint-blue: #2ec4b6;
+
+}
